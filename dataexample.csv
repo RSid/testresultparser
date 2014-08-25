@@ -1,0 +1,22 @@
+node_Id,Test,Status,node_Id_0
+0,"<Buildium.Enterprise.Test.Acceptance> (4155 tests)","[21:45.257] 40 tests failed",
+1,"Buildium.Enterprise.Test.Acceptance.Tests (580 tests)","[1:07.420] 1 test failed",0
+2,"ApiAccessKeyTests (7 tests)","[0:00.225] Success",1
+3,"CreateAccessKey","[0:00.030] Success",2
+4,"CreateAccessKeyWithDuplicateName","[0:00.032] Success",2
+5,"CreateAccessKeyWithNoDescription","[0:00.033] Success",2
+6,"GetAccessKey","[0:00.030] Success",2
+7,"UpdateAccessKey","[0:00.034] Success",2
+8,"UpdateWithDuplicateName","[0:00.033] Success",2
+9,"UpdateWithNoNameChange","[0:00.030] Success",2
+10,"ApplicationTests (21 tests)","[0:05.315] Success",1
+11,"GetApplicationTest","[0:00.295] Success",10
+12,"TestApplicantWithPhoneNumbers","[0:00.168] Success",10
+13,"TestApplicationBasedCorrectDefinition","[0:00.812] Success",10
+14,"TestApplicationRequiredFields","[0:00.197] Success",10
+15,"TestApplicationResponseDTO","[0:00.320] Success",10
+16,"TestApplicationStoredFieldValues","[0:00.272] Success",10
+17,"TestApplicationStoredFieldValuesInvalidDefinitionId","[0:00.038] Success",10
+18,"TestApplicationStoredFieldValuesInvalidSection","[0:00.205] Success",10
+19,"TestApplicationStoredFieldValuesMissingFieldValues","[0:00.148] Success",10
+20,"TestApplicationWithProperty","[0:00.282] Success",10
